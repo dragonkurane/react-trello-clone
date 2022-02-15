@@ -26,17 +26,17 @@ yarn start
 ```json
 {
   "users" : {
-    "dnzmmzPl4IXgfmn3C65xcNa6CLY2" : {
+    "----------userId----------" : {
       "boards" : {
-        "-Mvijmx8cHpBtigWQVur" : {
+        "----------board----------" : {
           "lanes" : [ {
             "cards" : [ {
               "description" : "SignOut func",
-              "id" : "9207f8f0-8df6-11ec-80d2-99d15e94c927",
-              "laneId" : "730c2610-8df6-11ec-80d2-99d15e94c927",
+              "id" : "----------cardId----------",
+              "laneId" : "----------laneId----------",
               "title" : "Develope"
             } ],
-            "id" : "730c2610-8df6-11ec-80d2-99d15e94c927",
+            "id" : "----------laneId----------",
             "title" : "ToDo"
           } ],
           "title" : "Development"
