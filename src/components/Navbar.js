@@ -21,6 +21,9 @@ export const Navbar = withRouter(() => {
                 overlay={
                     <Menu>
                         <Menu.Item key="0" onClick={() => signOut()}>
+                            Invite user
+                        </Menu.Item>
+                        <Menu.Item key="0" onClick={() => signOut()}>
                             Sign Out
                         </Menu.Item>
                     </Menu>

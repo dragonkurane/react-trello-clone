@@ -2,8 +2,8 @@
 
 ## 前提事項
 
--   Node.js
--   Yarn or NPM
+- Node.js
+- Yarn or NPM
 
 ## ローカル環境の設定
 
@@ -25,21 +25,47 @@ yarn start
 
 ```json
 {
-    "users": {
-        "<--- userId --->": {
-            "boards": {
-                "<--- boardId --->": {
-                    "lanes": [
-                        {
-                            "id": "<--- lane id --->",
-                            "title": "TODO"
-                        }
-                    ],
-                    "starred": true,
-                    "title": "<--- Title --->"
-                }
+  "users": {
+    "<--- userId --->": {
+      "boards": {
+        "<--- boardId --->": {
+          "lanes": [
+            {
+              "id": "<--- lane id --->",
+              "title": "TODO"
             }
+          ],
+          "starred": true,
+          "title": "<--- Title --->"
         }
+      }
     }
+  }
+}
+```
+
+## Schema
+
+```json
+{
+  "users": {
+    "user1": {
+      "name": "Marcuz Corpuz",
+      "email": "macoycorpuz@gmail.com"
+    }
+  },
+  "boards": {
+    "board1": {
+      "users": ["user1"],
+      "lanes": [
+        {
+          "id": "<--- lane id --->",
+          "title": "TODO"
+        }
+      ],
+      "starred": true,
+      "title": "<--- Title --->"
+    }
+  }
 }
 ```
