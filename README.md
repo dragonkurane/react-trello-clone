@@ -26,29 +26,6 @@ yarn start
 ```json
 {
   "users": {
-    "<--- userId --->": {
-      "boards": {
-        "<--- boardId --->": {
-          "lanes": [
-            {
-              "id": "<--- lane id --->",
-              "title": "TODO"
-            }
-          ],
-          "starred": true,
-          "title": "<--- Title --->"
-        }
-      }
-    }
-  }
-}
-```
-
-## Schema
-
-```json
-{
-  "users": {
     "user1": {
       "name": "Marcuz Corpuz",
       "email": "macoycorpuz@gmail.com"
