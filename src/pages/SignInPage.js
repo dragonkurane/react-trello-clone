@@ -45,7 +45,7 @@ const SignInForm = () => {
 
     return (
         <div>
-            <h1 className={`text-xl mb-3 text-center`}>Sign In</h1>
+            <h1 className={`text-xl mb-3 text-center`}>WorkFlow Visualization</h1>
 
             <Form onFinish={onFinish}>
                 <Form.Item name="email">
